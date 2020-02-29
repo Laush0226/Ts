@@ -20,7 +20,7 @@
         >yarn 同样是从npm注册源中获取模块的CLI客户端。
 2. ts
     tsc --init
-    tsc --build tsconfig.json
+    cmd ts-node hello.ts
 3. vscode
     1. 命令面板
     >CTRL+SHITF+P

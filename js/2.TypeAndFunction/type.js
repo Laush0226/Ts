@@ -5,6 +5,9 @@ console.log(areYouOk);
 //null
 //undefined
 //number
+var a = 6;
+var b = 1000000; //thousand  million
+console.log(a + b);
 //string
 //symbol
 //object
