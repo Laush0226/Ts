@@ -3,17 +3,25 @@ let areYouOk:boolean = true //areYouOk 是 boolean 类型 值为 true
 //null
 //undefined
 //number
-let a:number = 6
+let age:number = 24
 let b:number = 1_000_000 //thousand  million
 //string
-let nameBy:string = "lsh"
+let named:string = "lsh"
 let action:string = "keep moving"
+let sentence:string = 
+`My name is ${named}.
+I'm ${age} years old.`;
 //symbol
 //object
 
 //function
-function init(FP: string | boolean | number,num : number){
+function init1(FP: string | boolean | number,num : number){
     return "init"+ FP + num
 }
 
-console.log(init(areYouOk,a))
+function init2(FP:string){
+    return FP
+}
+
+console.log(init1(areYouOk,b))
+console.log(init2(sentence))
