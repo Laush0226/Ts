@@ -19,8 +19,10 @@
     2. npm install -g yarn
         >yarn 同样是从npm注册源中获取模块的CLI客户端。
 2. ts
-    tsc --init
-    cmd ts-node hello.ts
+    1. tsc -init
+    2. cmd ts-node hello.ts
+    3. 编译
+    >CTRL+SHIFT+P
 3. vscode
     1. 命令面板
     >CTRL+SHITF+P
